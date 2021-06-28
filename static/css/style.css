@@ -1,0 +1,39 @@
+body{
+    background-color: #ced1d3;
+}
+
+.circle {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 3px lightpink;
+    /*
+    color: lightpink;
+    background-color: lightyellow;
+    */
+    text-align: center;
+}
+
+.circle span{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 250px;
+    text-align: center;
+}
+
+.catimage{
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.wolfimage{
+    width: 30vw;
+    height: 20vw;
+}
