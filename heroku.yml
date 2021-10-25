@@ -1,5 +1,8 @@
+
 build:
   docker:
     web: Docker/Dockerfile
-run:
-  web: boudle exec puma -C config/puma.rb
+
+  web: python test.py
+
+
