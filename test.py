@@ -46,4 +46,4 @@ def close_connection(exception):
 #    return "hogehoge!!"
 
 if __name__=='__main__':
-    app.run(host = '0.0.0.0', port=os.environ['port'])
+    app.run(port=os.environ['port'])
